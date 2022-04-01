@@ -1,0 +1,53 @@
+.nav-user-details{
+    height: 25%;
+    width: 70%;
+    background-color: hsl(204, 86%, 53%);
+}
+
+.nav-link{
+    width: 70%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color:darkslategray;
+}
+
+.active-nav-link{
+    background-color: hsl(204, 86%, 53%);
+    color: white;
+    border-radius: 2px;
+    width: 70%;
+    height: 7%;
+    transition-duration: 0.5s;
+}
+
+.active-nav-link:hover{
+    color: white;
+}
+
+.nav-user-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile-pic{
+    width: 98px;
+    height: 98px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.username{
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "bootcamping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd backend && npx nodemon\" \"cd frontend2 && npm run start\""
+  },
+  "author": "",
+  "license": "ISC"
+}

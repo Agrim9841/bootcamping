@@ -1,0 +1,11 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.visible-onhover-child {
+    opacity: 0;
+}
+
+.visible-parent:hover .visible-onhover-child {
+    opacity: 1;
+}

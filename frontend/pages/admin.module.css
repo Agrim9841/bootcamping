@@ -1,0 +1,19 @@
+.admin{
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.adminMemberCard{
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.adminTitle{
+    color: orange;
+    margin-bottom: 10px;
+}

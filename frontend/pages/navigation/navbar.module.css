@@ -1,0 +1,25 @@
+.navbar{
+    width: 100%;
+    background-color: orange;
+    padding: 12px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+.navitem{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navleft{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
